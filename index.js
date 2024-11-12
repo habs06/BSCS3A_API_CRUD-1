@@ -16,10 +16,10 @@ const logger = (req, res, next) =>{
 app.use(logger)
 //connection to mysql
 const connection = mysql.createConnection({
-    host: "b5d7zndbquclw5ez6xuk-mysql.services.clever-cloud.com",
-    user: "uruhoojsplrq16yi",
-    password: "Vox25CL3AY3bRFPdeex1",
-    database: "b5d7zndbquclw5ez6xuk",
+    host: "bxiq4xdmaxjhcdjtt2cp-mysql.services.clever-cloud.com",
+    user: "upfx9ynfvxjledci",
+    password: "WvdbxAOwijojuZDMK2Xz",
+    database: "bxiq4xdmaxjhcdjtt2cp",
 });
 
 //initilization of connection
