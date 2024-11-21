@@ -16,6 +16,7 @@ const logger = (req, res, next) =>{
 
 app.use(logger)
 app.use(cors())
+app.use(express.json());
 //connection to mysql
 const connection = mysql.createConnection({
     host: "bxjaoph2n0v6o0umphvv-mysql.services.clever-cloud.com",
