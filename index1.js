@@ -5,7 +5,7 @@ const app = express();
 const moment = require('moment')
 //importing mysql
 const mysql = require("mysql")
-const cors = require('cors')
+
 //port number
 const PORT = process.env.PORT || 5000;
 
@@ -15,7 +15,6 @@ const logger = (req, res, next) =>{
 }
 
 app.use(logger)
-app.use(cors())
 app.use(express.json());
 //connection to mysql
 const connection = mysql.createConnection({
